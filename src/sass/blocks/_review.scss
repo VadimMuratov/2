@@ -1,0 +1,42 @@
+.review {
+    padding-bottom: 50px;
+    &__content {
+        margin-top: 60px;
+    }
+    &__item {
+        display: flex;
+        margin-bottom: 80px;
+        &:nth-child(3) {
+            margin-bottom: 0;
+        }
+    }
+    &__img {
+        display: block;
+        max-height: 170px;
+    }
+    &__body {
+        margin-left: 60px;
+    }
+    &__header {
+        margin-bottom: 10px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #0D0D0D;
+    }
+    &__subtitle {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #646464;
+    }
+    &__txt {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0D0D0D;
+    }
+
+}

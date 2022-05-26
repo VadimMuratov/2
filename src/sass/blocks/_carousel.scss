@@ -1,0 +1,40 @@
+.carousel {
+    padding: 81px 0;
+    &__inner {
+        width: 750px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .slick-prev, .slick-next {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        background: #fff;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -100px;
+    }
+    .slick-next {
+        left: auto;
+        right: -100px;
+    }
+    .slick-dots {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        width: 80px;
+        margin: 0 auto;
+        list-style: none;
+    }
+    .slick-dots button {
+        border: none;
+        font-size: 0px;
+        background: $main-color;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    }
+}
